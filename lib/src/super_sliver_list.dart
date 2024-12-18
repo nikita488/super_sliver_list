@@ -275,7 +275,6 @@ class ListController extends ChangeNotifier {
     }
   }
 
-  @visibleForTesting
   double getOffsetToReveal(int index, double alignment, {Rect? rect}) {
     assert(_delegate != null, "ListController is not attached.");
     return _delegate!.getOffsetToReveal(
